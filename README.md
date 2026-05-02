@@ -1,17 +1,31 @@
-# smart_alert_app
+# Smart Alert & Location App 🚨📍
 
-A new Flutter project.
+A professional Flutter application for field agents to track location and send emergency alerts to headquarters.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **GPS Location Tracking** - Get real-time latitude and longitude coordinates
+- **Push Notifications** - Receive instant alerts when location is acquired
+- **Emergency Alert System** - Send distress signals to headquarters
+- **Professional Dark UI** - Modern, full-screen design
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter
+- geolocator (GPS tracking)
+- flutter_local_notifications (Push notifications)
+- permission_handler (Runtime permissions)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Requirements Met
+
+- ✅ GPS / Location feature with button update
+- ✅ Push notifications on button press
+- ✅ Auto-notification when location is retrieved
+- ✅ Minimum 3 plugins used
+- ✅ Professional UI with dark theme
+
+## Installation
+
+```bash
+flutter pub get
+flutter run
