@@ -1,0 +1,28 @@
+﻿# Flutter
+.Dart_tool/
+.Flutter-plugins
+.Flutter-plugins-dependencies
+.pub/
+.build/
+.symlinks/
+Android/
+Ephemeral/
+Generated.xcconfig
+
+# Android
+android/*.iml
+android/.gradle
+android/local.properties
+android/.idea
+android/build/
+
+# iOS
+ios/.symlinks/
+ios/Pods/
+ios/Podfile.lock
+
+# VS Code
+.vscode/
+
+# Keys
+*.keystore
